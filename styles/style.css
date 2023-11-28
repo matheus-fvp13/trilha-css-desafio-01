@@ -54,7 +54,6 @@ body {
     font-size: 20px;
     line-height: 23.48px;
     text-align: center;
-    color: #FFF;
 }
 
 .banner button {
@@ -72,4 +71,56 @@ body {
     border-image: linear-gradient(#3BA1CD, #1572B7) 10;
     border-radius: 30px;
     padding: 16px 32px;
+}
+
+
+/*
+main
+**/
+
+/*
+    course content
+*/
+#course-content {
+    width: 792px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 100px auto;
+}
+
+#course-content > h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #33A8DB;
+}
+
+#course-content > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.9px;
+    text-align: center;
+}
+
+#course-content > .modules-list > .module {
+    width: 535px;
+    border: 1px solid #33A8DB;
+    border-radius: 50px;
+    background-color: #252525;
+    padding: 16px;
+    margin: 0 auto 20px;
+    box-shadow: inset -7px 6px 4px rgba(0, 0, 0, 0.5);
+
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 18.8px;
+    text-align: center;
+}
+
+#course-content > .modules-list > .module span {
+    color: rgba(51, 168, 219, 1);
 }
