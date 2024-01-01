@@ -168,3 +168,18 @@ body {
     text-align: center;
     margin-bottom: 100px;
 }
+
+/*Footer style*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+footer a {
+    color: rgba(51, 168, 219, 1);
+    text-decoration: none;
+}
