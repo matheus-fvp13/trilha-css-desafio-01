@@ -142,3 +142,29 @@ body {
     text-shadow: 2px 2px rgba(51, 168, 219, 1);
     margin-left: 150px;
 }
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#professional-challenges > h2 {
+    width: 700px;
+    color: rgba(51, 168, 219, 1);
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: .25rem;
+}
+
+#professional-challenges > p {
+    width: 792px;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 100px;
+}
